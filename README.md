@@ -7,9 +7,12 @@
 </ul>
 
 <b>Relationships : One-to-One<b>
+ 
+```
 {
 "_id":{"$oid":"61c0dae2b9bbfc254c814ff9"},
 "fullName":"Lisa Apriliani",
 "email":"lisapriliani@gmail.com",
 "phoneNumber":"0897836490"
 }
+```
