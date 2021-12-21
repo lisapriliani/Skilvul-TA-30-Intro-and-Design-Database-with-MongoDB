@@ -89,43 +89,25 @@
 
 ```js
 {
-    "_id": {
-        "$oid": "Cinemas001"
-    },
-    "cinemaName" : "CGF",
-    "films" : [
-        {
-          "_id" :{
-        "$oid": "films01"
-          },
-          "title" : "Venom 2"
-        },
-        {
-          "_id" : {
-        "$oid": "films02"
-          },
-          "title" : "Spiderman No Way Home"
-        }
+  "_id":"ObjectId('CNS1')",
+  "cinemas":"CGF",
+  "films":[
+      {"_id":"ObjectId('F1')",
+      "title":"Venom 2"},
+      {"_id":"ObjectId('F2')",
+      "title":"Spiderman No Way Home"}
       ],
-    "location" : "Pondok Indah Mall"
-},
+  "location":"Pondok Indah Mall"}
 
 {
-  "_id": {
-        "$oid": "Cinemas002"
-    },
-    "cinemaName" : "Cinemas 31",
-    "films" : [
-        {
-          "_id" : "films01",
-          "title" : "Venom 2"
-        },
-        {
-          "_id" : "films02",
-          "title" : "Spiderman No Way Home"
-        }
+  "_id":"ObjectId('CNS2')",
+  "cinemas":"Cinema31",
+  "films":[
+      {"_id":"ObjectId('F1')",
+      "title":"Venom 2"},
+      {"_id":"ObjectId('F2')",
+      "title":"Spiderman No Way Home"}
       ],
-    "location" : "Mall Kelapa Gading"
+  "location":"Mall Kelapa Gading"
 }
-
 ```
