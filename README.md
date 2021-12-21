@@ -92,21 +92,30 @@
   "_id":"ObjectId('CNS1')",
   "cinemas":"CGF",
   "films":[
-      {"_id":"ObjectId('F1')",
-      "title":"Venom 2"},
-      {"_id":"ObjectId('F2')",
-      "title":"Spiderman No Way Home"}
+      {
+        "_id":"ObjectId('F1')",
+      "title":"Venom 2"
+      },
+      {
+        "_id":"ObjectId('F2')",
+      "title":"Spiderman No Way Home"
+      }
       ],
-  "location":"Pondok Indah Mall"}
+  "location":"Pondok Indah Mall"
+},
 
 {
   "_id":"ObjectId('CNS2')",
   "cinemas":"Cinema31",
   "films":[
-      {"_id":"ObjectId('F1')",
-      "title":"Venom 2"},
-      {"_id":"ObjectId('F2')",
-      "title":"Spiderman No Way Home"}
+      {
+        "_id":"ObjectId('F1')",
+      "title":"Venom 2"
+      },
+      {
+        "_id":"ObjectId('F2')",
+      "title":"Spiderman No Way Home"
+      }
       ],
   "location":"Mall Kelapa Gading"
 }
