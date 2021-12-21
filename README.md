@@ -85,7 +85,7 @@
 <li>Location</li>
 </ul>
 
-<b>Relationships : Many-to-Many</b>
+<b>Relationships : One-to-Many</b>
 
 ```js
 {
