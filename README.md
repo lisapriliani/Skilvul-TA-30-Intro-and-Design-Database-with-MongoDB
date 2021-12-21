@@ -76,3 +76,56 @@
 }
 
 ```
+
+<h1> Nomor 4 </h1>
+<p> Skema DB data dari suatu aplikasi bioskop bernama SkilFlix </p>
+<ul>
+<li>Cinema Name</li>
+<li>Films</li>
+<li>Location</li>
+</ul>
+
+<b>Relationships : Many-to-Many</b>
+
+```js
+{
+    "_id": {
+        "$oid": "Cinemas001"
+    },
+    "cinemaName" : "CGF",
+    "films" : [
+        {
+          "_id" :{
+        "$oid": "films01"
+          },
+          "title" : "Venom 2"
+        },
+        {
+          "_id" : {
+        "$oid": "films02"
+          },
+          "title" : "Spiderman No Way Home"
+        }
+      ],
+    "location" : "Pondok Indah Mall"
+},
+
+{
+  "_id": {
+        "$oid": "Cinemas002"
+    },
+    "cinemaName" : "Cinemas 31",
+    "films" : [
+        {
+          "_id" : "films01",
+          "title" : "Venom 2"
+        },
+        {
+          "_id" : "films02",
+          "title" : "Spiderman No Way Home"
+        }
+      ],
+    "location" : "Mall Kelapa Gading"
+}
+
+```
